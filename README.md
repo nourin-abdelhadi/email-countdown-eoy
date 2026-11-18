@@ -52,13 +52,14 @@ pip install pillow
 Set the countdown deadline in UTC:
 
 ```bash
-deadline = datetime(2025, 12, 31, 23, 59, tzinfo=timezone.utc)
+deadline = datetime(2026, 12, 31, 23, 59, tzinfo=timezone.utc)
 ```
 
 Colors
 ```bash
 RED = (218, 41, 28, 255)
 WHITE = (255, 255, 255, 255)
+BLACK = (0, 0, 0, 2555)
 TRANSPARENT = (0, 0, 0, 0)
 ```
 
@@ -93,7 +94,7 @@ timer-email.png
 ## Email Usage Example
 ```bash
 <img
-src="https://nourin-abdelhadi.github.io/email-countdown/timer-email.gif"
+src="https://nourin-abdelhadi.github.io/email-countdown-eoy/timer-email.gif"
 alt="Countdown timer" width="600" style="display:block;">
 ```
 
